@@ -1,0 +1,27 @@
+{
+  "name": "funnyjunk_bot",
+  "version": "1.0.0",
+  "description": "A small bot that embeds a top funnyjunk post with a slash command",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Jordan Martayn",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
